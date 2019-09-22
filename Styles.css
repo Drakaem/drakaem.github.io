@@ -46,13 +46,37 @@ body a{
 
 	font-size:12px;
 	color:#ffffff;
+	line-height:15px;
 	
 }
 
 #young{
 
-	width:50%;
-	height:50%;
+	width:70%;
+	height:70%;
 
 }
-	
+
+#basketball{
+
+	font-size:15px;
+	color:#ffffff;
+
+}
+
+
+#bp{
+
+	font-size:12px;
+	color:#ffffff;
+	line-height:15px;
+
+}
+
+#ballteam{
+
+	width:70%;
+	height:70%;
+
+}
+
