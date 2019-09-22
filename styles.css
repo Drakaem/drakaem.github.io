@@ -1,29 +1,22 @@
 body{
-	
 	margin: 0;
 	padding: 0;
 	font-family: verdana, tahoma;
 	font-size:12px;
-
 }
 
 body a{
-
 	text-decoration:none;
 	color:#fff;
-
 }
 
 #wrapper{
-
 	max-width:800px;
 	min-width:350px;
 	margin: auto;
-
 }
 
 #main_title{
-
 	font-size:18px;
 	color:#ffffff;
 	text-align:center;
@@ -31,77 +24,58 @@ body a{
 }
 
 #first{
-	
-	font-size:12px;
+	font-size:13.5px;
 	color:#ffffff
-
 }
 
 #videogames{
-
-	font-size:15px;
+	font-size:16px;
 	color:#ffffff;
-
 }
 
 #vgp{
-
-	font-size:12px;
+	font-size:13.5px;
 	color:#ffffff;
-	line-height:15px;
-	
+	line-height:18px;
 }
 
 #young{
-
 	width:70%;
 	max-width:100%;
-
 }
 
 #basketball{
-
-	font-size:15px;
+	font-size:16px;
 	color:#ffffff;
-
 }
 
 
 #bp{
-
-	font-size:12px;
+	font-size:13.5px;
 	color:#ffffff;
-	line-height:15px;
-
+	line-height:18px;
 }
 
 #ballteam{
-
 	width:70%;
 	max-width:100%;
-
 }
 
 #slider-image{
-
-	width:800px;
-	height:450px;
-
+	width:700px;
+	height:400px;
+	position: left;
 }
 
 #slide-container{
-
-	width:800px;
-	height:450px;
+	width:700px;
+	height:400px;
 	margin-left:auto;
 	margin-right:auto;
 	overflow: hidden;
-	text-align:center;
-
 }
 
 #image-container{
-
 	width:2400px;
 	height:600px;
 	position: relative;
@@ -111,11 +85,9 @@ body a{
 }
 
 #slider-image{
-
 	float: left;
 	margin:0px;
 	padding:0px;
-
 }
 
 @keyframes slideranimation{
@@ -134,12 +106,12 @@ body a{
 	}
 	50%
 	{	
-		left:-800px
+		left:-700px
 	}
 	
 	90%
 	{
-		left:-800px;
+		left:-700px;
 	}
 	100% /* 10second */
 	{
@@ -148,22 +120,19 @@ body a{
 	
 }
 
-#button-container{
-
-	top:-20px;
-	position:relative;
-
+#LAN{
+	font-size:16px;
+	color:#ffffff;	
 }
 
-#slide-button {
-
-	display:inline-block;
-	height:10px;
-	width:10px;
-	border-radius:5px;
-	background-color:white;
-
+#LANP{
+	font-size:13.5px;
+	color:#ffffff;
+	line-height:18px;
 }
+
+
+
 
 
 	
