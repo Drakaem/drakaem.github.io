@@ -139,12 +139,11 @@ body a{
 }
 
 #s-m{
-	position: relative;
-	max-width:200px;
-	max-height:200px;
+
+	max-width:250px;
+	max-height:100px;
 	margin: 0 auto;
 }
-
 
 #s-m a:hover{
 	background #e67e22;
@@ -152,15 +151,15 @@ body a{
 
 #s-m a{
 	display:inline-flex;
-	width:40px;
-	height:20px;
+	width:50px;
+	height:30px;
 	background:#2c3e50;
 	margin: 0 6px;
 	border-radius: 50%;
 	justify-content:center;
 	align-items:center;
 	transition:0.4s;
-	font-size:22px;
+	font-size:23px;
 }
 
 #s-m a i{
@@ -170,8 +169,6 @@ body a{
 #s-m a:hover > i{
 	transform: scale(1.6) rotate(25deg);
 }
-
-
 
 
 
