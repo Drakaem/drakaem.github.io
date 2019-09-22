@@ -10,8 +10,12 @@ body a{
 	color:#fff;
 }
 
+#header{
+	color:"#7B94B0";
+}
+
 #footer{
-	background:#7CB9FE;	
+	background:#C5CBD2;	
 	height:40px;
 }
 
@@ -139,8 +143,7 @@ body a{
 #s-m{
 	position:relative;
 	top:4px;
-	max-width:250px;
-	max-height:100px;
+	max-width: 230px;
 	margin: 0 auto;
 }
 
