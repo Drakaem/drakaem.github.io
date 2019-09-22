@@ -11,10 +11,8 @@ body a{
 }
 
 #footer{
-	
-	max-width:800px;
-	min-width:350px;
-	margin:auto;
+	background:#7CB9FE;	
+	height:40px;
 }
 
 #wrapper{
@@ -139,7 +137,8 @@ body a{
 }
 
 #s-m{
-
+	position:relative;
+	top:4px;
 	max-width:250px;
 	max-height:100px;
 	margin: 0 auto;
@@ -155,7 +154,7 @@ body a{
 	height:30px;
 	background:#2c3e50;
 	margin: 0 6px;
-	border-radius: 50%;
+	border-radius: 70%;
 	justify-content:center;
 	align-items:center;
 	transition:0.4s;
@@ -169,6 +168,14 @@ body a{
 #s-m a:hover > i{
 	transform: scale(1.6) rotate(25deg);
 }
+
+
+
+
+
+
+		
+
 
 
 
