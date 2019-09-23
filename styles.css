@@ -121,7 +121,7 @@ a:hover{
 	
 }
 
-@media all and (min-width: 768px){
+@media all and (min-width: 1100px){
 
 	.item{
 		display:block;
