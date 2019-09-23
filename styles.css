@@ -149,14 +149,33 @@ a:hover{
 
 	#logo{
 		font-size:12px;
-	}
-	
-	#bars{
-		height: 10px;
-		width:30px;
-	}
-}
+	}	
 
+	#bars{
+	height:30px;
+	position:absolute;
+	right:10;
+	width:40px;
+	}
+
+	#bars::before,#bars::after{
+	background: #fff;
+	content:"";	
+	display: inline-block;
+	position:absolute;
+	height: 30px;
+	width: 40px;
+	}
+
+	#bars::before{
+	top:20px;
+	}
+
+	#bars::after{
+	top:-20px;
+	}
+
+}
 
 
 
@@ -322,6 +341,7 @@ a:hover{
 #s-m a:hover > i{
 	transform: scale(1.6) rotate(25deg);
 }
+
 
 
 
