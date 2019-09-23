@@ -4,45 +4,72 @@
        
        <head>
          <title>Drakaem</title>
+	 <meta charset="UTF-8">
 	 <meta name="viewport" content="width=device-width" />
+	 <meta http-equiv="X-UA-Compatible" content="ie-edge">
 	 <link href="styles.css" rel="stylesheet" type="text/css" />
 	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.1/css/all.css" integrity="sha384-IT8OQ5/IfeLGe8ZMxjj3QQNqT0zhBJSiFCL3uolrGgKRuenIU+mMS94kck/AHZWu" crossorigin="anonymous">
-       </head>
+      	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script>
+
+                $(function() {
+                
+			$(".toggle").on("click",function(){
+
+				if($(".item").hasClass("active")){
+				    $(".item").removeClass("active");
+				}
+				else{
+				     $(".item").addClass("active");
+				}
+
+			})
+
+                });
+		
+
+		</script
+ 	</head>
     
 
 
 	<nav>
+	
 
-	     <div id="logo">
-		<h4>Drakaem</h4>
-	     </div>
-
-	     <ul id="nav-links">	
 	     
-		<li>
+	       <div id="logo">
+		<h4>Drakaem</h4>
+
+	       </div>
+
+	<ul id="menu">
+	     
+		<li class="item">
 			<a href="#">Home</a>
 		</li>
 		
-		<li>
+		<li class="item">
 			<a href="#">About</a>
 		</li>
 
-		<li>
+		<li class="item">
 			<a href="#">Social Links</a>
 		</li>
 
-		<li>
+		<li class="item">
 			<a href="#">Say Something</a>
 		</li>
 
-	       
-	      </ul>
+		<li class="toggle"><span id="bars"></span></li>
+
+	       </ul>
 
 		<div id="burger">
 		  <div id="line1"></div>
 		  <div id="line2"></div>
 		  <div id="line3"></div>
 		</div>
+
 
 	   </nav>	
         
@@ -156,9 +183,7 @@
 
 
 
-	
-
-        
-    
+	<script src="main.js"></script>
            </body>
+
 </html>
