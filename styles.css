@@ -136,7 +136,6 @@ a:hover{
 
 	#logo{
 		order:0;
-		font-size:5px;
 	}
 
 	#menu li{
@@ -144,6 +143,14 @@ a:hover{
 	}
 
 
+}
+
+@media all and (max-width:1100px){
+
+	#logo{
+		font-size:12px;
+	}
+	
 }
 	
 
