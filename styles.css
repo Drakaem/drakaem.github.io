@@ -150,12 +150,12 @@ a:hover{
 	#logo{
 		font-size:12px;
 	}	
-
+	
 	#bars{
-	height:30px;
+	height:10px;
 	position:absolute;
 	right:10;
-	width:40px;
+	width:60px;
 	}
 
 	#bars::before,#bars::after{
@@ -163,16 +163,16 @@ a:hover{
 	content:"";	
 	display: inline-block;
 	position:absolute;
-	height: 30px;
-	width: 40px;
+	height: 10px;
+	width: 60px;
 	}
 
 	#bars::before{
-	top:20px;
+	top:10px;
 	}
 
 	#bars::after{
-	top:-20px;
+	top:-10px;
 	}
 
 }
