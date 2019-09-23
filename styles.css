@@ -19,9 +19,7 @@ body a{
 nav{
 	background:#898787;
 	padding:5px 20px;
-	max-width:840px;
-	min-width:350px;
-	margin: auto;
+	max-width:100%
 }
 
 ul{
@@ -162,7 +160,7 @@ a:hover{
 }
 
 #wrapper{
-	max-width:840px;
+	max-width:1000px;
 	min-width:350px;
 	margin: auto;
 }
@@ -313,6 +311,7 @@ a:hover{
 #s-m a:hover > i{
 	transform: scale(1.6) rotate(25deg);
 }
+
 
 
 
