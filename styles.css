@@ -151,7 +151,7 @@ a:hover{
 	#nav{
 	height:100px;
 	}
-	
+
 	#logo{
 	font-size:12px;
 	position:relative;
@@ -173,7 +173,7 @@ a:hover{
 	display: inline-block;
 	position:absolute;
 	height: 10px;
-	width: 60px;
+	width: 80px;
 	}
 
 	#bars::before{
@@ -185,7 +185,7 @@ a:hover{
 	}
 	
 	#s-m{
-	height:70px;
+	font-size:40px;
 	}
 
 }
