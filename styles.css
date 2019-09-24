@@ -148,6 +148,10 @@ a:hover{
 
 @media all and (max-width:1000px){
 
+	#nav{
+	height:100px;
+	}
+	
 	#logo{
 	font-size:12px;
 	position:relative;
