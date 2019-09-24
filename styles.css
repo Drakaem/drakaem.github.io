@@ -155,10 +155,15 @@ a:hover{
 	left:10px;
 	top:10px;
 	}	
+
+	#menu li{
+		font-size:30px;
+	}
 	
 	.item{
-	font-size:15px;
+	font-size:50px;
 	}
+
 
 	#bars{
 	height:16px;
