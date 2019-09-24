@@ -78,6 +78,7 @@ a:hover{
 	position:relative;
 	top:10px;
 	display:none;
+	font-size:50px;
 }
 
 .item.active{
@@ -139,10 +140,6 @@ a:hover{
 		order:0;
 	}
 
-	#menu li{
-		padding:1000px 1000px:
-	}
-
 }
 
 
@@ -161,7 +158,7 @@ a:hover{
 	}
 	
 	.item{
-	font-size:45px;
+	font-size:50px;
 	}
 
 
@@ -191,21 +188,14 @@ a:hover{
 	}
 	
 	#s-m {
-	display:inline-flex;
-	width:80px;
-	height:50px;
-	background:#2c3e50;
-	margin: 0 6px;
-	border-radius: 70%;
-	justify-content:center;
-	align-items:center;
-	transition:0.4s;
-	font-size:80px;
+	position:relative;
+	top:4px;
+	max-width:230px;
+	height:80px;
+	margin: 0 auto;	
+	font-size:50px;
 	}
 	
-	#footer{
-	height:80px;
-	}
 }
 
 
@@ -218,7 +208,12 @@ a:hover{
 
 #footer{
 	background:#898787;	
-	height:40px;
+	max-width:100%;
+	min-width:350px;
+	max-height:30%;
+	min-height:5%;
+	position:relative;
+	bottom:0;
 }
 
 #wrapper{
@@ -346,7 +341,7 @@ a:hover{
 	position:relative;
 	top:4px;
 	max-width: 230px;
-	margin: 0 auto;
+	margin: 0 auto;	
 }
 
 #s-m a:hover{
@@ -363,7 +358,7 @@ a:hover{
 	justify-content:center;
 	align-items:center;
 	transition:0.4s;
-	font-size:23px;
+	font-size:28px;
 }
 
 #s-m a i{
@@ -373,6 +368,11 @@ a:hover{
 #s-m a:hover > i{
 	transform: scale(1.6) rotate(25deg);
 }
+
+
+
+
+
 
 
 
