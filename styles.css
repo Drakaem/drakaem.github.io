@@ -157,11 +157,11 @@ a:hover{
 	}	
 
 	#bars{
-	height:80px;
+	height:20px;
 	position:absolute;
 	top:30px;
 	right:30;
-	width:150px;
+	width:50px;
 	}
 
 	#bars::before,#bars::after{
@@ -169,23 +169,26 @@ a:hover{
 	content:"";	
 	display: inline-block;
 	position:absolute;
-	height: 80px;
-	width: 150px;
+	height: 20px;
+	width: 50px;
 	}
 
 	#bars::before{
-	top:90px;
+	top:16px;
 	}
 
 	#bars::after{
-	top:-90px;
+	top:-16px;
 	}
 	
 	#s-m a{
 	width:150px;
 	height:120px;
 	}
-
+	
+	#footer{
+	height:80px;
+	}
 }
 
 
