@@ -120,7 +120,7 @@ a:hover{
 	
 }
 
-@media all and (min-width: 130px){
+@media all and (min-width: 1300px){
 
 	.item{
 		display:block;
@@ -146,7 +146,7 @@ a:hover{
 }
 
 
-@media all and (max-width:800px){
+@media all and (max-width:900px){
 
 
 	#logo{
