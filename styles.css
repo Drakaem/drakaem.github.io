@@ -1,4 +1,5 @@
 body{
+	width:100%;
 	margin: 0px;
 	padding: 0px;
 	font-family: verdana, tahoma;
@@ -148,13 +149,17 @@ a:hover{
 @media all and (max-width:1000px){
 
 	#logo{
-		font-size:12px;
+	font-size:12px;
+	position:relative;
+	left:10px;
+	top:5px;
 	}	
-	
+
 	#bars{
-	height:10px;
+	height:8px;
 	position:absolute;
-	right:10;
+	top:10px;
+	right:30;
 	width:60px;
 	}
 
@@ -168,11 +173,15 @@ a:hover{
 	}
 
 	#bars::before{
-	top:10px;
+	top:15px;
 	}
 
 	#bars::after{
-	top:-10px;
+	top:-15px;
+	}
+	
+	#footer{
+	height:70px;
 	}
 
 }
@@ -341,7 +350,6 @@ a:hover{
 #s-m a:hover > i{
 	transform: scale(1.6) rotate(25deg);
 }
-
 
 
 
